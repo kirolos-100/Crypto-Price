@@ -1,0 +1,9 @@
+Coin Gecko 
+public api doc . 
+
+simple Get price coin : 
+IDS: bitcoin,chainlink,tron,polkadot,dai,solana
+vs_currencies: usd
+include_24hr_change :true
+
+request url : https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cchainlink%2Ctron%2Cpolkadot%2Cdai%2Csolana&vs_currencies=usd&include_24hr_change=true
